@@ -1,0 +1,22 @@
+body {
+	background: #1D263B;
+  color: #FFF
+}
+
+img {
+  border: solid green;
+}
+
+a{
+  color: #1D992B;
+}
+
+.title{
+  color: green;
+  font-weight: bold;
+}
+
+.list{
+  background: #1D663B;
+  border-radius: 10px;
+}
