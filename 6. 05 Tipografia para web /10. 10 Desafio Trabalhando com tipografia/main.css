@@ -1,0 +1,21 @@
+#home .title {
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+#home p{
+  margin: 1rem;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+#home p strong{
+  font-weight: bold;
+}
+
+#home p em {
+  font-style: italic;
+}

@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "Olondon";
+  src: url(OldFonts/Olondon_.otf);
+}
+
 body {
 	background: #1D263B;
-  color: #FFF
+  color: #FFF;
+  font-family: Olondon, monospace;
 }
 
 img {
