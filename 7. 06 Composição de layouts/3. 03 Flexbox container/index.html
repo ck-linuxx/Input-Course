@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html,body{
+      margin: 0;
+      height: 100%;
+    }
+    #container{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    #header{
+      background: rgb(246, 140, 140);
+      padding: 1rem;
+    }
+    #main{
+      flex: 1;
+      background: rgb(50, 131, 182);
+      display: flex;
+    }
+    #main #sidebar{
+      background: rgb(224, 212, 212);
+      padding: 1rem;
+      width: 85px;
+    }
+    #main #content{
+      background: rgb(39, 189, 162);
+      padding: 1rem;
+      flex: 1;
+    }
+    #footer{
+      background: rgb(225, 204, 10);
+      padding: 1rem;
+    }
+  </style>
+  <title>Flexbox</title>
+</head>
+<body>
+  <div id="container">
+    <header id="header">Menu topo</header>
+    <main id="main">
+      <aside id="sidebar">Sidebar</aside>
+      <section id="content">Conteúdo</section>
+    </div>
+    <footer id="footer">Rodapé</footer>
+  </main>
+</body>
+</html>

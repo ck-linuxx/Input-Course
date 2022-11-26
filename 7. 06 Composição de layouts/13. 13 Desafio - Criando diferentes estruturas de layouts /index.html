@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body, html{
+      margin: 0;
+      height: 100%;
+    }
+    .container{
+      display: flex;
+      height: 100%;
+    }
+    .sidebar{
+      padding: 1.5rem;
+      background: rgb(255, 234, 0);
+    }
+    .main{
+      display: flex;
+      flex-direction: column;
+    }
+    .header{
+      background: pink;
+      width: 100vw;
+      padding: 1rem;
+    }
+    .content{
+      background: rgb(208, 192, 192);
+      padding: 1rem;
+      flex: 1;
+    }
+    .footer{
+      padding: 1rem;
+    }
+  </style>
+  <title>Desafio 13</title>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">Sidebar</aside>
+    <main class="main">
+      <header class="header"> Menu topo</header>
+      <div class="content">Conteúdo</div>
+      <footer class="footer">Footer</footer>
+    </main>
+  </div>
+</body>
+</html>

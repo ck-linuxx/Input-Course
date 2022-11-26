@@ -1,0 +1,129 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  max-height: 600px;
+  max-width: 400px;
+}
+
+.section1 {
+  display: flex;
+}
+
+.zero {
+  height: 200px;
+  width: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin: 5px;
+
+  background: gray;
+}
+
+.secton2 {
+  display: flex;
+}
+
+.one {
+  height: 100px;
+  width: 190px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin: 5px;
+
+  background: gray;
+}
+
+.section3 {
+  display: flex;
+}
+
+.two {
+  height: 90px;
+  width: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 5px;
+
+  background: gray;
+}
+
+.three {
+  height: 90px;
+  width: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 5px;
+
+  background: gray;
+}
+
+.four {
+  height: 200px;
+  width: 390px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin: 5px;
+
+  background: gray;
+}
+
+.section5 {
+  display: flex;
+}
+
+.five {
+  height: 200px;
+  width: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin: 5px;
+
+  background: gray;
+}
+
+.six {
+  height: 200px;
+  width: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin: 5px;
+
+  background: gray;
+}
